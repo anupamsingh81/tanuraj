@@ -1,0 +1,23 @@
+---
+title: "cohortum"
+author: "Anupam kumar Singh, MD"
+date: "21 June 2018"
+output: html_document
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.width=12, fig.height=8, fig.path='Figs/',
+                      echo=FALSE, warning=FALSE, message=FALSE)
+```
+
+
+
+```{r}
+library(tangram)
+cohort1=readRDS("cohort1.RDS")
+html5(tangram("hypertensives~Age+Height+Weight+Abdominal_Circumfrence+SBP+DBP+Total_Cholesterol+HDL+LDL+VLDL+Triglycerides+Lipoprotein_A+ASCVD+BMI+MAP+Smoker+Diabetes",data=cohort1),
+
+fragment=TRUE, inline="nejm.css", caption = "HTML5 Table NEJM Style", id="tbl3")
+
+```
+

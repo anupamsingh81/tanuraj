@@ -1,0 +1,5 @@
+"ln_age" "ln_age_squared" "ln_total_cholest" "ln_age_totcholest" "ln_hdlC" "ln_age_hdlC" "ln_treated_BP" "ln_age_BP" "ln_untreated_BP" "ln_age_ln_untreated_BP" "smoker" "nonsmoker" "ln_age_smoker" "diabetes" "nondiabetes" "meancoef" "baseline"
+"white_female" -29.799 4.884 13.54 -3.114 -13.578 3.149 2.019 0 1.957 0 7.574 0 -1.665 0.661 0 -29.18 0.9665
+"afroamer_female" 17.114 0 0.94 0 -18.92 4.475 29.291 -6.432 27.82 -6.087 0.691 0 0 0.874 0 86.61 0.9533
+"white_male" 12.344 0 11.853 -2.664 -7.99 1.769 1.797 0 1.764 0 7.837 0 -1.795 0.658 0 61.18 0.9144
+"afroamer_male" 2.469 0 0.302 0 -0.307 0 1.916 0 1.809 0 0.549 0 0 0.645 0 19.54 0.8954

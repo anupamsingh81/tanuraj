@@ -1,0 +1,123 @@
+$Age
+             n means variances
+Control     25    39        30
+HTN_grade_1 35    40        91
+HTN_grade_2 35    44        78
+HTN_grade_3 35    49        78
+
+                           t df        p
+Control:HTN_grade_1     0.54 56 0.949299
+Control:HTN_grade_2     2.61 57 0.054321
+Control:HTN_grade_3     4.96 57 0.000039
+HTN_grade_1:HTN_grade_2 1.73 68 0.317293
+HTN_grade_1:HTN_grade_3 3.71 68 0.002334
+HTN_grade_2:HTN_grade_3 2.06 68 0.177488
+
+
+
+$SBP
+                 Comparison         Z                     P.unadj                      P.adj
+1     Control - HTN_grade_1 -3.575101 0.0003500926041107398209093 0.000700185208221479641819
+2     Control - HTN_grade_2 -7.133979 0.0000000000009750795635473 0.000000000004875397817737
+3 HTN_grade_1 - HTN_grade_2 -3.898556 0.0000967680932996980378838 0.000290304279899094100099
+4     Control - HTN_grade_3 -9.009741 0.0000000000000000002065429 0.000000000000000001239257
+5 HTN_grade_1 - HTN_grade_3 -5.953350 0.0000000026270830719253222 0.000000010508332287701289
+6 HTN_grade_2 - HTN_grade_3 -2.054794 0.0398988692085680760057720 0.039898869208568076005772
+
+$DBP
+                 Comparison         Z                      P.unadj                        P.adj
+1     Control - HTN_grade_1 -2.795830 0.00517666882881327727883303 0.00517666882881327727883303
+2     Control - HTN_grade_2 -6.454723 0.00000000010841674036517671 0.00000000043366696146070683
+3 HTN_grade_1 - HTN_grade_2 -4.008117 0.00006120470859832035249309 0.00018361412579496105747928
+4     Control - HTN_grade_3 -9.293445 0.00000000000000000001493731 0.00000000000000000008962385
+5 HTN_grade_1 - HTN_grade_3 -7.117781 0.00000000000109678090160870 0.00000000000548390450804350
+6 HTN_grade_2 - HTN_grade_3 -3.109664 0.00187300202863471907527293 0.00374600405726943815054586
+
+$Total_Cholesterol
+             n means variances
+Control     25   188       259
+HTN_grade_2 35   199      1816
+HTN_grade_1 35   209      1040
+HTN_grade_3 35   226      1532
+
+                          t df        p
+Control:HTN_grade_2     1.4 46 0.494256
+Control:HTN_grade_1     3.2 53 0.010812
+Control:HTN_grade_3     5.2 48 0.000024
+HTN_grade_2:HTN_grade_1 1.0 63 0.731909
+HTN_grade_2:HTN_grade_3 2.8 68 0.036686
+HTN_grade_1:HTN_grade_3 2.1 66 0.177111
+
+$LDL
+             n means variances
+Control     25   106       179
+HTN_grade_2 35   116      1469
+HTN_grade_1 35   122       529
+HTN_grade_3 35   138      1183
+
+                          t df        p
+Control:HTN_grade_2     1.4 45 0.497993
+Control:HTN_grade_1     3.2 56 0.011160
+Control:HTN_grade_3     5.0 47 0.000058
+HTN_grade_2:HTN_grade_1 0.7 56 0.896744
+HTN_grade_2:HTN_grade_3 2.5 67 0.068786
+HTN_grade_1:HTN_grade_3 2.4 59 0.096746
+
+$VLDL
+             n means variances
+HTN_grade_2 35    16       149
+Control     25    19        13
+HTN_grade_1 35    23        59
+HTN_grade_3 35    27        65
+
+                          t df        p
+HTN_grade_2:Control     1.3 42 0.546578
+HTN_grade_2:HTN_grade_1 3.1 57 0.016611
+HTN_grade_2:HTN_grade_3 4.4 59 0.000289
+Control:HTN_grade_1     3.1 52 0.017362
+Control:HTN_grade_3     5.1 51 0.000029
+HTN_grade_1:HTN_grade_3 1.8 68 0.298467
+
+$Triglycerides
+                 Comparison         Z               P.unadj                P.adj
+1     Control - HTN_grade_1 -3.671930 0.0002407255458536507 0.000722176637560952
+2     Control - HTN_grade_2 -4.989747 0.0000006045844733577 0.000003022922366789
+3 HTN_grade_1 - HTN_grade_2 -1.443596 0.1488526454548141364 0.148852645454814136
+4     Control - HTN_grade_3 -7.295202 0.0000000000002982106 0.000000000001789264
+5 HTN_grade_1 - HTN_grade_3 -3.969096 0.0000721458539719081 0.000288583415887632
+6 HTN_grade_2 - HTN_grade_3 -2.525500 0.0115533831333447454 0.023106766266689491
+
+$Lipoprotein_A
+             n means variances
+Control     25    21        73
+HTN_grade_1 35    30        58
+HTN_grade_2 35    34        73
+HTN_grade_3 35    37        25
+
+                          t df            p
+Control:HTN_grade_1     4.3 48 0.0004016081
+Control:HTN_grade_2     5.9 52 0.0000017522
+Control:HTN_grade_3     8.4 36 0.0000000036
+HTN_grade_1:HTN_grade_2 2.0 67 0.2003606573
+HTN_grade_1:HTN_grade_3 4.3 59 0.0003349620
+HTN_grade_2:HTN_grade_3 1.7 55 0.3394363373
+
+$ASCVD
+                 Comparison         Z            P.unadj             P.adj
+1     Control - HTN_grade_1 -2.224414 0.0261206263072969 0.052241252614594
+2     Control - HTN_grade_2 -5.032446 0.0000004842604150 0.000002421302075
+3 HTN_grade_1 - HTN_grade_2 -3.076046 0.0020976576902219 0.006292973070666
+4     Control - HTN_grade_3 -6.185202 0.0000000006202289 0.000000003721373
+5 HTN_grade_1 - HTN_grade_3 -4.338827 0.0000143245516098 0.000057298206439
+6 HTN_grade_2 - HTN_grade_3 -1.262781 0.2066679075986966 0.206667907598697
+
+
+$MAP
+                 Comparison         Z                       P.unadj                         P.adj
+1     Control - HTN_grade_1 -3.171130 0.001518472280847463218300675 0.003036944561694926436601349
+2     Control - HTN_grade_2 -6.838147 0.000000000008022399814303744 0.000000000032089599257214975
+3 HTN_grade_1 - HTN_grade_2 -4.017016 0.000058939700920685430868187 0.000176819102762056285828296
+4     Control - HTN_grade_3 -9.714409 0.000000000000000000000261762 0.000000000000000000001570572
+5 HTN_grade_1 - HTN_grade_3 -7.167804 0.000000000000762105287086238 0.000000000003810526435431187
+6 HTN_grade_2 - HTN_grade_3 -3.150788 0.001628309106296249673256904 0.001628309106296249673256904
+
